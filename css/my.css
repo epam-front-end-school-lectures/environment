@@ -1,0 +1,14 @@
+.reveal li {
+	margin: 0.5em 0;
+}
+.reveal pre {
+	margin-bottom: 30px;
+	width: 100%;
+}
+.cols {
+	overflow: hidden;
+}
+.col-2 {
+	float: left;
+	width: 50%;
+}
