@@ -92,13 +92,15 @@ body {
   font-size: 2.11em; }
 
 .reveal h3 {
-  font-size: 1.55em; }
+  font-size: 1.55em; 
+  line-height: 1.1em;
+}
 
 .reveal h4 {
   font-size: 1em; }
 
 .reveal h1 {
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  }
 
 /*********************************************
  * OTHER
@@ -238,12 +240,12 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #39c2d7;
+  color: #7F993A;
   text-decoration: none;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #6b89c0;
+  color: #A3C644;
   text-shadow: none;
   border: none; }
 
@@ -256,9 +258,8 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0;
-  border: 0 solid #464547;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  background: rgba(255, 255, 255, 0.12); }
+  border: 0 solid #7F993A;
+}
 
 .reveal section img.plain {
   border: 0;
@@ -268,9 +269,7 @@ body {
   transition: all .15s linear; }
 
 .reveal a:hover img {
-  border-color: #39c2d7;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-  background: rgba(255, 255, 255, 0.2); }
+  border-color: #A3C644;}
 
 /*********************************************
  * NAVIGATION CONTROLS
@@ -325,7 +324,7 @@ body {
 .reveal ul {
   display: block;
   margin-top: 100px;
-  list-style: none; }
+}
 
 .reveal section img {
   border: 0; }
