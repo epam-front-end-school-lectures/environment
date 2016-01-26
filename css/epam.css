@@ -87,6 +87,16 @@ body {
 .reveal h1 {
   font-size: 3em; }
 
+.reveal h1:before {
+  content: "< ";
+  color: #39C2D7;
+}
+
+.reveal h1:after {
+  content: " >";
+  color: #39C2D7;
+}
+
 .reveal h2 {
   font-size: 2.11em; }
 
