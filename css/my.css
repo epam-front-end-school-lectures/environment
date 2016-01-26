@@ -16,3 +16,7 @@
 	text-transform: none;
 	color: #464547;
 }
+
+.reveal img.medium { 
+	max-height: 80vh;
+}
